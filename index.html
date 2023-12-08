@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healhub-Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+</head>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">🗨️</span>
+        <span class="material-symbols-outlined" style="background-color: #f2f2f2;">✖️</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">🤖</span>
+                <p>On a scale of 1 to 10, how would you rate your current mood? </p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea id="textarea" placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">&#9755</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 
